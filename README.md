@@ -1,6 +1,6 @@
 # SmartCellCommand
 
-A smart cell implementation for Livebook.
+A smart cell implementation for Livebook to execute shell commands.
 
 ## Installation
 
