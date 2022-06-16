@@ -1,21 +1,41 @@
 # SmartCellCommand
 
-**TODO: Add description**
+A smart cell implementation for Livebook.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `smart_cell_command` to your list of dependencies in `mix.exs`:
+Use `Mix.install/2` on your livebook to install this library.
 
 ```elixir
-def deps do
-  [
-    {:smart_cell_command, "~> 0.1.0"}
-  ]
-end
+Mix.install([
+  {:smart_cell_command, github: "kentaro/smart_cell_command"}
+])
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/smart_cell_command>.
+![](images/install.png)
 
+## Usage
+
+Select the `Command` cell from `+ Smart` button:
+
+![](images/select-command-cell.png)
+
+Then you'll see the editor like below:
+
+![](images/editor.png)
+
+### Execute a single command
+
+![](images/single-command.png)
+
+### Execute a command with args
+
+![](images/command-with-args.png)
+
+### Execute multiple commands
+
+![](images/multiple-commands.png)
+
+## Author
+
+Kentaro Kuribayashi <kentarok@gmail.com>
