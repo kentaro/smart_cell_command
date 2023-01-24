@@ -22,7 +22,7 @@ defmodule SmartCellCommand.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:kino, "~> 0.6.1"}
+      {:kino, "~> 0.6"}
     ]
   end
 end
